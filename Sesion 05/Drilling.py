@@ -14,6 +14,6 @@ for letter in brk:
 final = ""
 
 for letter in range(len(consonantes)):
-    final = final+consonantes[letter]
+    final = final+consonantes[letter]+" - "+str(letter+1)+" / "
 
 print(final)
